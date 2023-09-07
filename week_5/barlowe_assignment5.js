@@ -12,5 +12,5 @@ db.users.updateOne({ "lastName: "Mozart" }, { $set: { "email": "mozart@me.com" }
 )
 
 // Find users using projection
-db.users.find({}, { firstName: 1, lastName: 1, email: 1, _id: 0 })
+db.users.find({}, { firstName: 1, lastName: 1, email: 1})
 
